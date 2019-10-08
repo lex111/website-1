@@ -21,6 +21,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          'gatsby-remark-embed-symfonycasts',
           `gatsby-remark-relative-images`,
           {
             resolve: `gatsby-remark-images`,
@@ -91,7 +92,6 @@ module.exports = {
     // 'gatsby-plugin-offline',
     'gatsby-transformer-sharp',
     'gatsby-transformer-yaml',
-
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
